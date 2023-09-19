@@ -3,14 +3,14 @@
 
 # In[159]:
 
-
+#importing required Libraries
 import streamlit as st
 import pandas as pd
-from pymongo.mongo_client import MongoClient
 import plotly.express as px
 st.set_page_config(page_title= "AIR_BNB",
                    layout= "wide",
                    initial_sidebar_state= "expanded")
+#CSV file to data frame
 df=pd.read_csv("airbnb.csv")
 tab1,tab2,tab3,tab4=st.tabs([":red[HOME]",":red[TOP 10 CHARTS]",":orange[AIRBNBS ALL OVER THE WORLD]",":red[FIND YOUR SUITABLE AIRBNB IN YOUR COUNTRY]"])
 with tab1:
