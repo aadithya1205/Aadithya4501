@@ -1,3 +1,4 @@
+AIRBNB ANALYSIS
 The goal of the project is to create a streamlit app to analyse and visualize the airbnb data
 
 
